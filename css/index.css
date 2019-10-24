@@ -201,9 +201,19 @@ a {
   padding-left: 40vw;
   justify-content: center;
 }
+.nav-container a {
+  padding: 0 5%;
+}
 .top-img {
   display: flex;
   justify-content: center;
+  border-top: 2px dashed #C0C0C0;
+}
+.welcome {
+  max-width: 800px;
+  width: 100%;
+  margin: 2% auto;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
