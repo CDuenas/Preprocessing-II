@@ -176,6 +176,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   padding: 2%;
+  border-bottom: 2px dashed #C0C0C0;
 }
 a {
   text-decoration: none;
@@ -203,17 +204,6 @@ a {
 }
 .nav-container a {
   padding: 0 5%;
-}
-.top-img {
-  display: flex;
-  justify-content: center;
-  border-top: 2px dashed #C0C0C0;
-}
-.welcome {
-  max-width: 800px;
-  width: 100%;
-  margin: 2% auto;
-  border-bottom: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
@@ -262,6 +252,16 @@ a {
 .home .content-destination img {
   border-radius: 10px;
 }
+.home .top-img {
+  display: flex;
+  justify-content: center;
+}
+.home .welcome {
+  max-width: 800px;
+  width: 100%;
+  margin: 2% auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
@@ -271,4 +271,14 @@ a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  height: 4vh;
+  width: 12vw;
+  background-color: #18bd94;
+  border-radius: 10%;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
 }
